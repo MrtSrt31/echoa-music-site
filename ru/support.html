@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Поддержка — Echoa Music</title>
+<style>
+  :root {
+    --accent: #016ab8;
+    --bg: #0c0c0e;
+    --surface: #1a1a1d;
+    --text: #f2f2f5;
+    --muted: #9a9aa2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .langbar {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--surface);
+  }
+  .langbar a { color: var(--muted); text-decoration: none; }
+  .langbar a:hover { color: var(--accent); }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 24px 64px; }
+  a.back { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); text-decoration: none; margin-bottom: 32px; font-size: 0.9rem; }
+  h1 { display: flex; align-items: center; gap: 14px; font-size: 2rem; margin-bottom: 8px; }
+  h1 img { width: 44px; height: 44px; border-radius: 10px; }
+  h2 { font-size: 1.2rem; margin-top: 36px; border-bottom: 1px solid var(--surface); padding-bottom: 8px; }
+  .card { background: var(--surface); border-radius: 14px; padding: 20px; margin-top: 16px; }
+  a.contact { color: var(--accent); text-decoration: none; font-weight: 600; }
+  details { background: var(--surface); border-radius: 12px; padding: 14px 18px; margin-top: 12px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { color: var(--muted); margin-top: 8px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+  <div class="langbar"><a href="../en/support.html">English</a> &nbsp;|&nbsp; <a href="../tr/support.html">Türkçe</a> &nbsp;|&nbsp; <a href="../de/support.html">Deutsch</a> &nbsp;|&nbsp; <a href="../es/support.html">Español</a> &nbsp;|&nbsp; <strong>Русский</strong> &nbsp;|&nbsp; <a href="../el/support.html">Ελληνικά</a> &nbsp;|&nbsp; <a href="../zh/support.html">中文</a> &nbsp;|&nbsp; <a href="../fa/support.html">فارسی</a> &nbsp;|&nbsp; <a href="../ar/support.html">العربية</a></div>
+  <main>
+    <a class="back" href="index.html">← Echoa Music</a>
+    <h1><img src="../assets/icon.png" alt="Echoa Music" /> Поддержка</h1>
+    <p>Возникла проблема с Echoa Music или есть предложение? Свяжитесь с нами одним из способов ниже.</p>
+
+    <div class="card">
+      <strong>Поддержка по электронной почте</strong>
+      <p><a class="contact" href="mailto:menmetmert@gmail.com">menmetmert@gmail.com</a></p>
+      <p>Пожалуйста, укажите в письме модель устройства, версию ОС и версию приложения — это поможет нам быстрее решить проблему.</p>
+    </div>
+
+    <h2>Часто задаваемые вопросы</h2>
+    <details>
+      <summary>Как импортировать музыкальные файлы?</summary>
+      <p>Нажмите кнопку «+» на вкладке «Библиотека», чтобы импортировать музыкальные файлы или папки с устройства. Echoa Music поддерживает MP3, FLAC, WAV, AIFF, OGG, Opus, APE, WavPack, Musepack и другие форматы.</p>
+    </details>
+    <details>
+      <summary>Работает ли приложение без интернета?</summary>
+      <p>Да. Вся импортированная музыка хранится на вашем устройстве и полностью работает в офлайн-режиме.</p>
+    </details>
+    <details>
+      <summary>Как изменить тему или акцентный цвет?</summary>
+      <p>Перейдите в Настройки → Внешний вид, чтобы изменить светлую/тёмную тему и акцентный цвет.</p>
+    </details>
+    <details>
+      <summary>Я хочу сообщить об ошибке или предложить функцию.</summary>
+      <p>Напишите на указанный выше адрес электронной почты — ваши отзывы напрямую влияют на развитие приложения.</p>
+    </details>
+    <footer>© 2026 Echoa Music. Все права защищены.</footer>
+  </main>
+</body>
+</html>

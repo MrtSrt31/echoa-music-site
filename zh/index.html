@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Echoa Music</title>
+<style>
+  :root {
+    --accent: #016ab8;
+    --bg: #0c0c0e;
+    --surface: #1a1a1d;
+    --text: #f2f2f5;
+    --muted: #9a9aa2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .langbar {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+    color: var(--muted);
+    border-bottom: 1px solid var(--surface);
+  }
+  .langbar a { color: var(--muted); text-decoration: none; }
+  .langbar a:hover { color: var(--accent); }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 64px 24px 48px;
+    background: radial-gradient(circle at 50% 0%, rgba(1,106,184,0.35), transparent 60%);
+  }
+  header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 28px;
+    box-shadow: 0 12px 40px rgba(1,106,184,0.45);
+    margin-bottom: 24px;
+  }
+  h1 { font-size: 2.25rem; margin: 0 0 8px; }
+  header p { color: var(--muted); font-size: 1.1rem; max-width: 480px; margin: 0; }
+  main { max-width: 720px; margin: 0 auto; padding: 0 24px 64px; }
+  section { margin-bottom: 40px; }
+  h2 { font-size: 1.4rem; border-bottom: 1px solid var(--surface); padding-bottom: 8px; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; list-style: none; padding: 0; }
+  .features li { background: var(--surface); border-radius: 14px; padding: 18px; }
+  .features li strong { display: block; margin-bottom: 4px; color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 0.9rem; padding: 24px; border-top: 1px solid var(--surface); }
+  a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="langbar"><a href="../en/index.html">English</a> &nbsp;|&nbsp; <a href="../tr/index.html">Türkçe</a> &nbsp;|&nbsp; <a href="../de/index.html">Deutsch</a> &nbsp;|&nbsp; <a href="../es/index.html">Español</a> &nbsp;|&nbsp; <a href="../ru/index.html">Русский</a> &nbsp;|&nbsp; <a href="../el/index.html">Ελληνικά</a> &nbsp;|&nbsp; <strong>中文</strong> &nbsp;|&nbsp; <a href="../fa/index.html">فارسی</a> &nbsp;|&nbsp; <a href="../ar/index.html">العربية</a></div>
+  <header>
+    <img src="../assets/icon.png" alt="Echoa Music logo" />
+    <h1>Echoa Music</h1>
+    <p>以优雅、快速、完全离线的体验聆听您设备上的音乐。</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>功能特色</h2>
+      <ul class="features">
+        <li><strong>离线播放</strong>您音乐库中的所有音乐均可在无网络连接的情况下播放。</li>
+        <li><strong>广泛的格式支持</strong>支持 MP3、FLAC、WAV、AIFF、OGG、Opus、APE 等多种格式。</li>
+        <li><strong>均衡器</strong>通过可调节的参数均衡器精细调节音质。</li>
+        <li><strong>现代化界面</strong>流畅、快速且优雅的用户体验。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>联系方式</h2>
+      <p>如有问题、建议或支持请求，请通过 menmetmert@gmail.com 联系我们。</p>
+      <p><a href="support.html">支持页面</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Echoa Music. 保留所有权利。</footer>
+</body>
+</html>
